@@ -3,6 +3,10 @@ This is a Advance Fluxion tool on esp8266...
 
 Welcome to the project. This project is inspired by https://github.com/M1z23R/ESP8266-EvilTwin
 
+# Phishing Page Screenshot:
+
+Screenshot_2021-12-07-18-42-47-34_07f20907771ad09ffa2dcbecf65bb740.jpg
+
 # How to use:
 Connect to the AP named M1z23R with password deauther from your phone/PC.
 Select the target you want (list of available APs refreshes every 30secs - page reload is required)
