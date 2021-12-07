@@ -5,7 +5,7 @@ Welcome to the project. This project is inspired by https://github.com/M1z23R/ES
 
 # Phishing Page Screenshot:
 
-https://github.com/MDRafi08642/Fluxion-on-esp8266/blob/24816c52012aefcf5bac265913d6b95b05e1e75d/Screenshot_2021-12-07-18-42-47-34_07f20907771ad09ffa2dcbecf65bb740.jpg
+https://raw.githubusercontent.com/MDRafi08642/Fluxion-on-esp8266/main/Screenshot_2021-12-07-18-42-47-34_07f20907771ad09ffa2dcbecf65bb740.jpg
 
 # How to use:
 Connect to the AP named M1z23R with password deauther from your phone/PC.
