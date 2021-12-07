@@ -12,6 +12,7 @@ Go to your favorite browser and navigate to 192.168.4.1/admin
 Once there DO NOT change your target, only start/stop deauthing and wait for someone to try and use the correct password.
 Once correct password is found, AP will be restarted with default ssid M1z23R / deauther and at the bottom of a table you should be able to see something like "Successfully got password for - SSID - Password
 
+# How to Install:
 For compile this file visit https://github.com/SpacehuhnTech/esp8266_deauther/tree/v1
 
 Note: feel free to edit & provide bin file in pull request..
