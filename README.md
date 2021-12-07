@@ -3,7 +3,7 @@ This is a Advance Fluxion tool on esp8266...
 
 Welcome to the project. This project is inspired by https://github.com/M1z23R/ESP8266-EvilTwin
 
-How to use:
+#How to use:
 Connect to the AP named M1z23R with password deauther from your phone/PC.
 Select the target you want (list of available APs refreshes every 30secs - page reload is required)
 Click the Start Evil-Twin button and reconnect to the newly created AP named same as your target (will be open)
@@ -14,4 +14,4 @@ Once correct password is found, AP will be restarted with default ssid M1z23R / 
 
 For compile this file visit https://github.com/SpacehuhnTech/esp8266_deauther/tree/v1
 
-Note: feel free to provide bin file in pull request..
+Note: feel free to edit & provide bin file in pull request..
