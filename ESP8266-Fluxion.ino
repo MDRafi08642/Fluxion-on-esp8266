@@ -98,7 +98,7 @@ String _tempHTML = "<html><head><meta name='viewport' content='initial-scale=1.0
                    "<button style='display:inline-block;'{disabled}>{deauth_button}</button></form>"
                    "<form style='display:inline-block; padding-left:8px;' method='post' action='/?hotspot={hotspot}'>"
                    "<button style='display:inline-block;'{disabled}>{hotspot_button}</button></form>"
-                   "<p> To use Fluxion attack, firstly, select target network. Secondly, start EvilTwin. Thirdly, connect to twinned network & visit '192.168.4.1/admin' in browser. Fourthly, DO NOT change your target, only start deauthing and wait for someone to try and use the correct password. Once correct password is found, AP will be restarted with default ssid M1z23R / pass=deauther and at the bottom of a table you should be able to see something like "Successfully got password for - TargetSSID - Password" </p>"
+                   "<p> To use Fluxion attack, firstly, select target network. Secondly, start EvilTwin. Thirdly, connect to twinned network & visit '192.168.4.1/admin' in browser. Fourthly, DO NOT change your target, only start deauthing and wait for someone to try and use the correct password. Once correct password is found, AP will be restarted with default ssid M1z23R / pass=deauther and at the bottom of a table you should be able to see something like Successfully got password for - TargetSSID - Password </p>"
                    "</div></br><table><tr><th>SSID</th><th>BSSID</th><th>Channel</th><th>Select</th></tr>";
 
 void handleIndex() {
