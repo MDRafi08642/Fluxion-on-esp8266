@@ -17,6 +17,13 @@ Once there DO NOT change your target, only start/stop deauthing and wait for som
 Once correct password is found, AP will be restarted with default ssid M1z23R / deauther and at the bottom of a table you should be able to see something like "Successfully got password for - SSID - Password
 
 # How to Install:
+
+Just upload ESP8266-Fluxion.ino.nodemcu.bin
+
+
+OR
+
+
 For compile this file visit https://github.com/SpacehuhnTech/esp8266_deauther/tree/v1
 
 Note: feel free to edit & provide bin file in pull request..
